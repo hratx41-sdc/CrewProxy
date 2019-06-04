@@ -1,0 +1,31 @@
+{
+  "name": "related-items-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for related items component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "deploy": "pm2 deploy ecosystem.config.js production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hratx41-sdc/Related-Items"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hratx41-sdc/Related-Items"
+  },
+  "homepage": "https://github.com/hratx41-sdc/Related-Items",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "pm2": "^3.5.1"
+  }
+}
